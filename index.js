@@ -7,6 +7,7 @@ const dynamo = new AWS.DynamoDB.DocumentClient();
  */
 
 //A dynamo DB table named quizzaws, with a question_id partition key and a difficulty sort key
+//we retrieve one element
 const params = {
   TableName: "quizzaws",
   Key: {
